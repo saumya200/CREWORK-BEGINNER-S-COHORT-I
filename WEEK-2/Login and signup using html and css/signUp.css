@@ -1,0 +1,90 @@
+body{
+    padding:0;
+    margin:0;
+    background-color: #5800FF;  
+    box-sizing: border-box;
+}
+
+form{
+    width:40%;
+    height:52%;
+    margin-left: 30%;
+    background-color: #FCF8E8;
+    border-radius: 7px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+
+h1{
+    font-size:50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#name{
+    border-radius: 7px;
+    border:1px solid black;
+    width:80%;
+    height:40px;
+    padding:5px 5px;
+    margin: 5px;
+    font-size: 20px;   
+}
+
+#emailId{
+    border-radius: 7px;
+    border:1px solid black;
+    width:80%;
+    height:40px;
+    padding:5px 5px;
+    margin: 5px;
+    font-size:20px;
+}
+
+#password{
+    border-radius: 7px;
+    border:1px solid black;
+    width:80%;
+    height:40px;
+    padding:5px 5px;
+    margin: 5px;
+    font-size:20px;
+}
+#re-typePassword{
+    border-radius: 7px;
+    border:1px solid black;
+    width:80%;
+    height:40px;
+    padding:5px 5px;
+    margin: 5px;
+    font-size:20px; 
+}
+
+
+input[type=submit]{
+    background-color: #5800FF;
+    color:white;
+    text-decoration: none;
+    border-radius: 7px;
+    border:none;
+    width:80%;
+    height:40px;
+    padding:5px 5px;
+    margin: 0 4px;
+    font-size:20px;
+}
+
+input[type=submit]:hover{
+    background-color: #6d29ed;
+}
+
+p{
+    text-align: center;
+}
+
+.center{
+    margin:auto;
+    padding-left:30px;
+
+}
+
